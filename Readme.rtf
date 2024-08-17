@@ -1,0 +1,214 @@
+{\rtf1\ansi\ansicpg1253\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Bold;\f1\froman\fcharset0 Times-Roman;\f2\fmodern\fcharset0 Courier;
+\f3\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue0;\red179\green179\blue179;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c0\c0\c0\c84706;\cssrgb\c75294\c75294\c75294;
+}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid1\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid2\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{square\}}{\leveltext\leveltemplateid3\'01\uc0\u9642 ;}{\levelnumbers;}\fi-360\li2160\lin2160 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid101\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww38200\viewh24000\viewkind0
+\deftab720
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Overview\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 This project focuses on predicting heart disease using a dataset containing various medical attributes of patients. The dataset comprises 303 records with 14 features, including age, sex, chest pain type, resting blood pressure, cholesterol levels, and other relevant medical measurements. The project explores data wrangling, exploratory data analysis (EDA), feature engineering, and machine learning model building to develop an accurate heart disease prediction model.\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf0 Project Structure\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls1\ilvl0
+\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Import Libraries
+\f1\b0 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Import necessary libraries for data wrangling, visualization, and machine learning model building.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls1\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Data Import and Overview
+\f1\b0 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Load the heart disease dataset.\
+\ls1\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Display the first few rows and the shape of the dataset to understand its structure.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls1\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Data Description
+\f1\b0 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Briefly describe each feature in the dataset, focusing on its significance in the context of heart disease prediction.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls1\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Exploratory Data Analysis (EDA)
+\f1\b0 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 4.1 Data Types, Missing Data, and Summary Statistics
+\f1\b0 \
+\pard\tx1660\tx2160\pardeftab720\li2160\fi-2160\partightenfactor0
+\ls1\ilvl2\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9642 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Analyze data types and check for any missing values.\
+\ls1\ilvl2\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9642 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Generate summary statistics to get an overview of the dataset.\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 4.2 Feature Analysis
+\f1\b0 \
+\pard\tx1660\tx2160\pardeftab720\li2160\fi-2160\partightenfactor0
+\ls1\ilvl2\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9642 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Analyze categorical and numerical features individually.\
+\ls1\ilvl2\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9642 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Visualize the relationships between different features and the target variable (heart disease).\
+\ls1\ilvl2\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9642 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Handle irrelevant features by dropping them.\
+\ls1\ilvl2\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9642 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Identify and address outliers using appropriate techniques.\
+\ls1\ilvl2\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9642 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Perform correlation analysis to understand the relationships between numerical features and the target.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls1\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	5	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Data Preprocessing
+\f1\b0 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 5.1 Missing Values
+\f1\b0 \
+\pard\tx1660\tx2160\pardeftab720\li2160\fi-2160\partightenfactor0
+\ls1\ilvl2\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9642 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Confirm that there are no missing values in the dataset.\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 5.2 Data Transformation
+\f1\b0 \
+\pard\tx1660\tx2160\pardeftab720\li2160\fi-2160\partightenfactor0
+\ls1\ilvl2\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9642 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Handle skewness in numerical features using transformations like logarithmic scaling.\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 5.3 Feature Engineering
+\f1\b0 \
+\pard\tx1660\tx2160\pardeftab720\li2160\fi-2160\partightenfactor0
+\ls1\ilvl2\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9642 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Engineer new features like age groups, heart rate reserve, and interactions between existing features.\
+\ls1\ilvl2\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9642 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Drop less informative features and reorder columns for better clarity.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls1\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	6	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Modeling
+\f1\b0 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 6.1 Feature Selection
+\f1\b0 \
+\pard\tx1660\tx2160\pardeftab720\li2160\fi-2160\partightenfactor0
+\ls1\ilvl2\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9642 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Define the features and target variable for model training.\
+\ls1\ilvl2\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9642 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Split the dataset into training and testing sets.\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 6.2 Model Training
+\f1\b0 \
+\pard\tx1660\tx2160\pardeftab720\li2160\fi-2160\partightenfactor0
+\ls1\ilvl2\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9642 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Train various machine learning models, including Logistic Regression, SVM, Gaussian Naive Bayes, Decision Tree, and Random Forest.\
+\ls1\ilvl2\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9642 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Evaluate each model's performance using confusion matrix and accuracy score.\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 6.3 Model Comparison
+\f1\b0 \
+\pard\tx1660\tx2160\pardeftab720\li2160\fi-2160\partightenfactor0
+\ls1\ilvl2\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9642 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Compare the performance of different models based on their accuracy scores.\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 6.4 Cross-Validation
+\f1\b0 \
+\pard\tx1660\tx2160\pardeftab720\li2160\fi-2160\partightenfactor0
+\ls1\ilvl2\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9642 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Perform cross-validation to validate the stability and reliability of the models.\
+\ls1\ilvl2\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9642 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Visualize the cross-validation scores for better comparison.\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 6.5 Hyperparameter Tuning
+\f1\b0 \
+\pard\tx1660\tx2160\pardeftab720\li2160\fi-2160\partightenfactor0
+\ls1\ilvl2\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9642 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Tune the hyperparameters of the best-performing model (SVM) to optimize its performance.\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf0 Requirements\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 To run the project, ensure that you have the following Python libraries installed:\
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs26 \cf0 python\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs22 \cf3 \cb4 \strokec3 \uc0\u913 \u957 \u964 \u953 \u947 \u961 \u945 \u966 \u942  \u954 \u974 \u948 \u953 \u954 \u945 
+\f2\fs26 \cf0 \cb1 \strokec2 \
+pandas\
+numpy\
+missingno\
+seaborn\
+matplotlib\
+scikit-learn\
+catboost\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\fs24 \cf0 You can install the required libraries using pip:\
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs26 \cf0 bash\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs22 \cf3 \cb4 \strokec3 \uc0\u913 \u957 \u964 \u953 \u947 \u961 \u945 \u966 \u942  \u954 \u974 \u948 \u953 \u954 \u945 
+\f2\fs26 \cf0 \cb1 \strokec2 \
+pip install pandas numpy missingno seaborn matplotlib scikit-learn catboost\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf0 Running the Project\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0
+\f1\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Clone the repository or download the project files.\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Ensure that the dataset (
+\f2\fs26 heart-disease.csv
+\f1\fs24 ) is in the same directory as the script.\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Run the script to execute the data analysis, preprocessing, and model building steps.\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Review the output, including visualizations, model accuracy, and cross-validation scores.\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf0 Conclusion\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 This project provides a comprehensive workflow for predicting heart disease using machine learning. Through EDA, data preprocessing, feature engineering, and model evaluation, we aim to develop a robust predictive model that can assist in early detection and treatment of heart disease.\
+}
